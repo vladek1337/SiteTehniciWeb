@@ -1,0 +1,252 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header,
+section,
+footer,
+body
+{
+	background: #141414;
+	font-family: "Segoe UI";
+}
+
+/* END OF CSS RESET */
+
+.container {
+	display: inline-grid;
+    grid-template-columns: 400px 10px 400px;
+    align-content: center;
+	margin: auto;
+	width: 98%;
+	max-width: 95vmin;
+}
+.verde {
+	text-decoration: none;
+	color: #6fb3aa;
+}
+.button {
+	font-size:2vmin;
+	text-align: center;
+	max-width:30vmin;
+}
+.logo {
+	text-align: center;
+	margin-top: 5vmin;	
+	margin-bottom: 1vmin;
+}
+.titlu {
+	font-size: 8vmin;
+	font-weight: 300;
+}
+.subtitlu {
+	text-align: center;
+	margin-bottom: 3vmin;
+	font-size: 5vmin;
+	font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;
+}
+.footer {
+	color: #fff;
+	clear: both;
+	font-size: 2vmin;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.nav {
+	background: #1e1e1e;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 0px solid;
+	font-size: 2.5vmin;
+	margin: auto;
+	border-radius: 25px;
+	width: 100%;
+	margin-bottom: 3vmin;
+	max-width: 90vmin;
+	font-weight: 700;
+
+}
+.choose {
+	margin-bottom: 2vmin;
+}
+.zone {
+	margin-top:2vmin;
+	margin-bottom:1vmin;
+}
+.contain {
+	margin: auto;
+	width: 98%;
+	max-width: 95vmin;
+}
+.spatiu {
+	padding-left: 15%;
+}
+.bkg {
+	background: #1e1e1e;
+	border: 0px solid;
+	border-color: #333333;
+	border-radius: 25px;
+	
+}
+.lft {
+	float: left;
+	width: 45%;
+	margin-bottom: 30px;
+	
+}
+.rgt {
+	float: right;
+	width: 45%;
+	margin-bottom: 30px;
+
+}
+.pad {
+	padding: 1% 1%;
+}
+h2 {
+	text-align: center;
+	color: #6fb3aa;
+	font-size: 3vmin;
+}
+.img {
+	border-radius: 25px;
+	width: 100%;
+}
+h6 {
+	color: #B3B3B3;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 2vmin;
+	font-size: 2vmin;
+}
+h5 {
+	font-size: 2.5vmin;
+	margin-bottom: 2.5vmin;
+}
+.articspace {
+	margin-left: 2vmin;
+}
+h3 {
+	font-size: 3vmin;
+	text-align: center;
+	margin-bottom: 3vmin;
+}
+.div {
+	padding: 0 10%;
+	text-align: justify;
+	color: white;
+	font-size: 2vmin;
+	margin-bottom: 30px;
+	line-height: 2.5vmin;
+}
+.artimg {
+	display:block;
+	max-width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+h4 {
+	color: white;
+	font-size: 3vmin;
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-bottom:20px;
+	font-weight: 600;
+	text-align: left;
+}
+.desc {
+	text-align: center;
+	font-style: italic;
+	font-size: 15px;
+}
+input {
+	margin-top: 3vmin;
+	margin-left: 1vmin;
+	margin-right: 1vmin;
+	margin-bottom: 1vmin;
+	width: 95%;
+	padding: 0.5vmin 0.5vmin;
+	font-size: 2vmin;
+	border-radius: 3px;
+	border: 1px solid #D9D9D9;
+}
+.center {
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.lft, .rgt {
+	float: left;
+	width: 100%;
+	}
+	.hwsw {
+		border-radius: 0px;
+		width: 0%;
+	}
+	.zone{
+		font-size: 5vmin;
+	}
+	.button{
+		width: 100%;
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.hwsw {
+		border-radius: 0px;
+		width: 0%;
+	}
+	.zone{
+		font-size: 5vmin;
+	}
+
+}
